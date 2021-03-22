@@ -69,8 +69,9 @@
 
     // Hero Slider
     $('.hero-area-1').owlCarousel({
-        loop:true,
-        dots: true,
+        loop:false,
+        nav:false,
+        dots: false,
         autoplay: false,
         mouseDrag: true,
         animateOut: 'fadeOut',
@@ -95,7 +96,7 @@
     $('.hero-caro').owlCarousel({
         loop:true,
         dots: true,
-        nav: true,
+        nav: false,
         autoplay: true,
         mouseDrag: true,
         animateOut: 'fadeOut',
@@ -175,7 +176,7 @@
         animateIn: 'fadeIn',
         autoplayTimeout: 5000,
         smartSpeed: 500,
-        nav:true,
+        nav:false,
         navText: [
             '<i class="flaticon-arrow"></i>',
             '<i class="flaticon-arrow-1"></i>'
