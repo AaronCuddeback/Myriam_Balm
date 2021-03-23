@@ -789,7 +789,7 @@ img {
 
 .section-title {
   margin-bottom: 35px;
-  margin-top: -6px;
+  margin-top: 15px;
 }
 
 .section-title h2 {
@@ -885,16 +885,18 @@ img {
   font-size: 25px;
 }
 
-/* @media (max-width: 991px) {
-  .top-center {
-    margin-top: 150px;
+ @media (max-width: 991px) {
+ #myriam {
+  width: 100% !important;
   }
-} */
+} 
+
 @media (max-width: 991px) {
   .top-text {
     margin-top: 200px;
     line-height: 1;
   }
+
 }
 
 .bottom-center {
@@ -1122,8 +1124,7 @@ img {
 }
 
 #myriam {
-  padding-top: 5%;
-  width: 60% !important;
+  width: 60%;
   height: auto;
 }
 
@@ -1132,6 +1133,7 @@ img {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 20px;
+  padding-bottom: 20px !important;
 }
 
 #myriam-text p {
@@ -1248,8 +1250,8 @@ img {
 }
 
 .btn-fill:hover {
-  background: #ffffff;
-  color: #d0834d;
+  background: #a7afd4;
+  color: black;
   box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.05);
 }
 
@@ -2109,8 +2111,10 @@ Hero Area
   }
 
   #analysis {
-    padding: 0px 0px 0px 5px !important;
+    padding: 0px 0px 25px 5px !important;
   }
+
+margin-bottom
 
   #home > div > div > div.col-xl-6.col-lg-6.col-md-6 > div.about-list {
   }
@@ -2155,7 +2159,7 @@ Hero Area
   .hero-sub
   .table-cell
   .hero-left.hero-shade {
-  padding: 60px 90px;
+  padding: 30px 90px;
   background: #fdfdfdbb;
   border-radius: 10px;
   box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.05);
@@ -2163,6 +2167,15 @@ Hero Area
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 18px;
+}
+
+.hero-section
+  .hero-area-2
+  .single-hero
+  .hero-sub
+  .table-cell
+  .hero-left.hero-shade ul{
+ text-align: left;
 }
 
 @media (max-width: 991px) {
@@ -2177,6 +2190,7 @@ Hero Area
   border-radius: 10px;
   box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.05);
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   font-size: 18px;
 }
 
@@ -2891,6 +2905,33 @@ About Area
   font-weight: 600;
   font-size: 16px;
 }
+
+#mc-embedded-subscribe {
+    display: inline-block i !important;
+    font-weight: 500 !important;
+    font-size: 26px !important;
+    line-height: 42px !important;
+    font-family: 'Helvetica', Arial, sans-serif !important;
+    width: auto !important;
+    white-space: nowrap !important;
+    height: 42px !important;
+    margin: 12px 5px 12px 0 !important;
+    padding: 0 22px !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    cursor: pointer !important;
+    border: 0 !important;
+    border-radius: 3px !important;
+    vertical-align: top !important;
+    background-color: #d0834d !important;
+    color: #ffffff !important;
+}
+
+#mc-embedded-subscribe:hover {
+  background: #a7afd4 !important;
+  color: black !important;
+}
+
 /*
 
 ===============================
